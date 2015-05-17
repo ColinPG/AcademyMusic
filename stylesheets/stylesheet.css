@@ -238,6 +238,7 @@ ul li a{
 	display: block;
 	padding: 5px 1px;
 	color: white;
+	text-shadow: #111 0px 0px 10px;
 	text-decoration: none;
 }
 ul li a:hover{
