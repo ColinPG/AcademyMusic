@@ -195,11 +195,6 @@ blockquote {
   border-left: 3px solid #bbb;
 }
 
-
-ul, ol, dl {
-  margin-bottom: 15px
-}
-
 @media (min-width: 768px) {
 	.navbar {
 		-webkit-border-radius: 0px;
@@ -361,7 +356,6 @@ ul, ol, dl {
 	}
 
 	.nav {
-		margin-bottom: 0;
 		padding-left: 0;
 		list-style: none
 	}
@@ -533,7 +527,13 @@ Small Device Styles
 *******************************************************************************/
 
 @media (max-width: 767px) {
-
+    .container {
+        width: 100%
+    }
+	.inner {
+		width: 100% -30px
+	}
+	
 	.nav-button {
 		display: block;
 		position: absolute;
@@ -645,7 +645,6 @@ Small Device Styles
 	}
 	.mobile-nav li ul {
 		display: none;
-		margin-bottom: 0;
 		background: rgba(0,0,0,.5);
 		border-top: 0 none;
 		padding: 0;
@@ -662,7 +661,7 @@ Small Device Styles
 	}
 }
 
-
+/*
 @media screen and (max-width: 480px) {
   body {
     font-size:14px;
@@ -711,6 +710,7 @@ Small Device Styles
     font-size: 11px;
   }
 
-}
+}*/
+
 
 
