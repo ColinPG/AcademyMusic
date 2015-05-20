@@ -399,7 +399,7 @@ line-height: 20px
 .container {
     margin-right: auto;
     margin-left: auto;
-    padding-left: 90px;
+    padding-left: 15px;
     padding-right: 15px
 }
 
@@ -407,16 +407,25 @@ line-height: 20px
     .container {
         width: 750px
     }
+	.inner {
+		width: 720px;
+	}
 }
 @media (min-width: 992px) {
     .container {
         width: 970px
-    }
+    }	
+	.inner {
+		width: 940px;
+	}
 }
 @media (min-width: 1200px) {
     .container {
         width: 1170px
     }
+	.inner {
+		width: 1140px;
+	}
 }
 
 
@@ -480,7 +489,6 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 940px;
   padding: 20px 10px;
   margin: 0 auto;
 }
