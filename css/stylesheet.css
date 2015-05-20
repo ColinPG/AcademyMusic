@@ -531,7 +531,7 @@ Small Device Styles
         width: 100%
     }
 	.inner {
-		width: 100% -30px
+		width: auto
 	}
 	
 	.nav-button {
