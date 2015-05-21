@@ -661,7 +661,6 @@ Small Device Styles
 	}
 }
 
-/*
 @media screen and (max-width: 480px) {
   body {
     font-size:14px;
@@ -710,7 +709,7 @@ Small Device Styles
     font-size: 11px;
   }
 
-}*/
+}
 
 
 
