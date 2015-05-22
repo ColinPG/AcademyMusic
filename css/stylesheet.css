@@ -139,7 +139,6 @@ img {
   margin: 0 auto;
   max-width: 739px;
   padding: 5px;
-  margin: 10px 0 10px 0;
 }
 
 p img {
@@ -399,7 +398,10 @@ blockquote {
 }
 .right {
 	float: right;
-	margin-right: 50px
+	margin-right: 10px
+}
+.row img#right {
+	float:right;
 }
 .row-title .current-page {
 	margin: 15px 0 0;
@@ -414,13 +416,11 @@ blockquote {
 	width: 100%;
 }
 .row-title .current-page li {
+	color: #b5b5b5;
 	float: left;
 	margin-right: 8px;
 }
-.row img {
-	float:left
-	margin: 50px;
-}
+
 .row-content {
 	font-family: "Open Sans";
 	font-size: 22px;
@@ -430,15 +430,13 @@ blockquote {
 	margin-bottom: 60px;
 }
 .row {
+	min-height: 150px;
 	margin-top: 20px;
 	border-bottom: solid 1px #d4d4d4;
 }
 .row-header {
 	padding-top: 50px;
 	border-bottom: solid 3px #d4d4d4;
-}
-#bass-guitar {
-	background: url('../images/bass-guitar.jpg') resize center;
 }
 .nav-button { display: none; } 
 
