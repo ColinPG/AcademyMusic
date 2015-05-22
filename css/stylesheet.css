@@ -403,6 +403,77 @@ blockquote {
 .row img#right {
 	float:right;
 }
+.brand img {
+	width: 300px;
+	height: 100px;
+	padding: 10px;
+}
+
+.button {
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 19px;
+	color: white;
+	border: none;
+	-webkit-border-radius: 3px;
+	background: #3A59F4;
+	-webkit-background-clip: padding-box;
+	-moz-border-radius: 3px;
+	-moz-background-clip: padding;
+	margin-left: -1px;
+	border-radius: 0px;
+	background-clip: padding-box;
+	padding: 15px 35px;
+	position: relative;
+	float: left;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.button:focus {
+	outline: none;
+	color: white;
+}
+.button:hover {
+	color: white;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-opacity: 0.8;
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+}
+
+.button-group {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.button-group .button {
+	background: white;
+	border: solid 1px #c4c4c4;
+	color: #737373;
+	font-weight: 400;
+	padding: 15px;
+}
+.button-group .button.active,
+.button-group .button:hover,
+.button-group .button:focus {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	background: #3A59F4;
+	border: solid 1px #3A59F4;
+	color: #ffffff;
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+}
+.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
+
 .row-title .current-page {
 	margin: 15px 0 0;
 	padding: 0;
