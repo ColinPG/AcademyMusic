@@ -118,7 +118,7 @@ a {
   -ms-transition: text-shadow 0.5s ease;
 }
 
-a:hover, a:focus {text-decoration: underline;}
+/*a:hover, a:focus {text-decoration: underline;}*/
 
 footer a {
   color: #F2F2F2;
@@ -134,18 +134,12 @@ strong {
 }
 
 img {
+  display: inline;
   position: relative;
   margin: 0 auto;
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
-
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
 p img {
@@ -227,7 +221,7 @@ blockquote {
 		opacity: 0.95;
 		padding: 18px 0px 20px;
 	}
-	.navbar .main-nav > li.active > a {
+	.navbar li.active > a {
 		background: transparent;
 		font-weight: bold;
 	}
@@ -240,7 +234,6 @@ blockquote {
 		position: absolute;
 		min-width: 170px;
 		background: white;
-		border-bottom: solid 1px #c0c0c0;
 		margin: 0;
 		list-style: none;
 		padding: 0;
@@ -377,12 +370,76 @@ blockquote {
 }
 
 .container {
+	width: auto;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
-    padding-right: 15px
+    padding-right: 15px;
+}
+.row-title {
+	font-family: "Open Sans";
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 48px;
+	color: black;
+	margin-bottom: 20px;
+}
+.row-title.header {
+	font-family: "Open Sans";
+	font-size: 55px;
+	font-weight: 700;
+	line-height: 48px;
+	color: #ccc;
+	margin-bottom: 20px;
 }
 
+.left {
+	float: left;
+	margin-left: 10px
+}
+.right {
+	float: right;
+	margin-right: 50px
+}
+.row-title .current-page {
+	margin: 15px 0 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font-family: "Open Sans";
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 32px;
+	color: #b5b5b5;
+	width: 100%;
+}
+.row-title .current-page li {
+	float: left;
+	margin-right: 8px;
+}
+.row img {
+	float:left
+	margin: 50px;
+}
+.row-content {
+	font-family: "Open Sans";
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 32px;
+	color: #777;
+	margin-bottom: 60px;
+}
+.row {
+	margin-top: 20px;
+	border-bottom: solid 1px #d4d4d4;
+}
+.row-header {
+	padding-top: 50px;
+	border-bottom: solid 3px #d4d4d4;
+}
+#bass-guitar {
+	background: url('../images/bass-guitar.jpg') resize center;
+}
 .nav-button { display: none; } 
 
 ol {

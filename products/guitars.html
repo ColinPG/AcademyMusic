@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Academymusic : ">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" media="screen" href="../css/stylesheet.css">
+	<script src="../js/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$(".nav-button").click(function () {
+		$(".nav-button,.mobile-nav").toggleClass("open");
+		});
+	});
+	</script>
+    <title>Academy of Music</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+
+			<h1 id="project_title">Academy Of Music</h1>
+
+        </header>
+		<div class="navbar">
+			<div class="container">
+				<ul class="nav navbar-nav main-nav mobile-nav">
+					<li><a href="../index.html">Home</a></li>
+					<li class="parent">
+						<a href="#">Products&#9662;</a>
+						<ul>
+							<li><a href="#">Amps</a></li>
+							<li><a href="#">Brass</a></li>
+							<li><a href="#">Drums & Percussion</a></li>
+							<li><a href="#">Effects</a></li>
+							<li class="active"><a href="guitars.html">Guitars</a></li>
+							<li><a href="#">Keyboards</a></li>
+							<li><a href="#">Other String Instruments</a></li>
+							<li><a href="#">PA Systems</a></li>
+							<li><a href="#">Pianos</a></li>
+							<li><a href="#">Recording</a></li>
+							<li><a href="#">Wood Winds</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Lessons</a></li>
+					<li><a href="#">First Time Buyer</a></li>
+					<li><a href="#">Used</a></li>
+					<li><a href="#">Piano Tuning</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>	
+		</div>
+		
+		<button class="nav-button">Toggle Navigation</button>
+
+    </div>
+	
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+		
+		
+		<div class="row row-header">
+			<div class="row-title header left">
+				Guitars
+				<ul class="current-page">
+					<li>Home</li>
+					<li>></li>
+					<li>Products</li>
+					<li>></li>
+					<li>Guitars</li>
+				</ul>
+			</div>
+			<div class="row-content">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui.
+			</div>
+        </div>
+		<a href="guitars/acoustic.html"><div class="row">			
+			<div class="row-title right">
+				Acoustic Guitars
+			</div>
+			<img src="../images/acoustic-guitar.png"/>
+        </div></a>
+		<a href="#"><div class="row">			
+			<div class="row-title right" id="bass-guitar">
+				Bass Guitars
+			</div>
+			<img src="../images/bass-guitar.png"/>
+        </div></a>
+		<a href="#"><div class="row">			
+			<div class="row-title right">
+				Electric Guitars
+			</div>
+			<img src="../images/electric-guitar.png"/>
+        </div></a>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Page maintained by <a href="#">Colin</a></p>
+        <p>Academy of Music &copy;2015</p>
+      </footer>
+    </div>
+	
+  </body>
+</html>
