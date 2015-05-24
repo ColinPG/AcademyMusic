@@ -409,6 +409,7 @@ blockquote {
 	padding: 10px;
 }
 
+
 .button {
 	font-family: "Open Sans";
 	font-size: 14px;
@@ -783,6 +784,11 @@ Small Device Styles
 	.mobile-nav li:hover ul {
 		display: block;
 		border-top: 0 none;
+	}
+	.brand img {
+		width: 150px;
+		height: 75px;
+		padding: 10px;
 	}
 }
 
