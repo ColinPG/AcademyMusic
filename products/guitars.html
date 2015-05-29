@@ -48,6 +48,14 @@
 		  return name.match( /ium$/ );
 		}
 	  };
+            	  
+      // bind filter button click
+	  $('#filters').on( 'click', 'button', function() {
+		var filterValue = $( this ).attr('data-filter');
+		// use filterFn if matches value
+		filterValue = filterFns[ filterValue ] || filterValue;
+		$container.isotope({ filter: filterValue });
+	  });
 
 	  // change is-checked class on buttons
 	  $('.button-group').each( function( i, buttonGroup ) {
